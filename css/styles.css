@@ -163,11 +163,10 @@ svg:hover path {
   padding-left: 1.5rem;
 }
 #section-home img {
-  width: 350px;
-  height: 350px;
-  position: absolute; /* Set position to absolute */
-  top: 150px; /* Adjust the desired distance from the top */
-  right: 100px; /* Adjust the desired distance from the right */
+  width: 150px;
+  height: 150px;
+  position: sticky; /* Set position to absolute */
+  right: 200px; /* Adjust the desired distance from the right */
 }
 
 .text-zone h1 {
@@ -552,14 +551,17 @@ textarea {
   #section-home {
     padding-left: 11.5rem;
   }
+  #section-home img {
+    width: 350px;
+    height: 350px;
+    position: absolute; /* Set position to absolute */
+    top: 150px; /* Adjust the desired distance from the top */
+    right: 100px; /* Adjust the desired distance from the right */
+  }
   .text-zone h1 {
     font-size: 6.3rem;
     line-height: 85px;
     letter-spacing: -6px;
-  }
-  .text-zone img {
-    width: 50px;
-    height: 72px;
   }
   .text-zone .gray-text {
     font-size: 1rem;
